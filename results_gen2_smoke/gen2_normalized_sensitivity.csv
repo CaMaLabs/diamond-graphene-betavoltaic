@@ -1,0 +1,7 @@
+factor,dimensionless_parameter,epsilon,base_power_W_cm2,log_sensitivity,p10_log_sensitivity,p90_log_sensitivity,absolute_log_sensitivity,dominance_ratio_vs_median,included_points,skipped_saturated_points,skipped_dead_points,interpretation
+carrier_mobility,mobility_scale,0.1,2.6974557289607507e-10,0.921346075118096,0.19425280160870306,1.712369602862147,0.921346075118096,1.6525241002777802,5,0,0,comparable local sensitivity
+interface_losses,interface_loss_scale,0.1,2.6974557289607507e-10,-0.8491893984437506,-0.9583545163298348,-0.4475701973936294,0.8491893984437506,1.5231040588617215,5,0,0,comparable local sensitivity
+trap_density,trap_loss_scale,0.1,2.6974557289607507e-10,-0.7729522451552003,-0.7735623605865529,-0.7677975846345525,0.7729522451552003,1.386365284422646,5,0,0,comparable local sensitivity
+bulk_recombination,bulk_recombination_scale,0.1,2.985542176470503e-10,-0.3421250780296448,-3.5058269645906925,-0.05198789779666948,0.3421250780296448,0.6136347155773539,4,1,0,comparable local sensitivity
+healing_rate,healing_rate_scale,0.1,2.6974557289607507e-10,0.0009766913159087991,0.00016773547230185788,0.029034817544395637,0.0009766913159087991,0.0017517911908013827,5,0,0,comparable local sensitivity
+thermal_effects,thermal_loss_scale,0.1,2.6974557289607507e-10,0.0,0.0,0.0,0.0,0.0,5,0,0,comparable local sensitivity

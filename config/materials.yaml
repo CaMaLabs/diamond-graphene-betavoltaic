@@ -1,0 +1,103 @@
+sources:
+  Ni63:
+    mean_beta_energy_keV: 17.0
+    max_beta_energy_keV: 66.9
+    half_life_years: 100.1
+    default_activity_Bq_cm2: 1.0e8
+    description: "Low-energy beta emitter; strong self-absorption sensitivity."
+  C14:
+    mean_beta_energy_keV: 49.0
+    max_beta_energy_keV: 156.5
+    half_life_years: 5730.0
+    default_activity_Bq_cm2: 1.0e8
+    description: "Higher-energy beta emitter; lower specific activity for equal isotope mass."
+
+materials:
+  diamond:
+    bandgap_eV: 5.47
+    pair_creation_energy_eV: 13.0
+    density_g_cm3: 3.51
+    electron_mobility_cm2_Vs: 1800.0
+    hole_mobility_cm2_Vs: 1200.0
+    relative_permittivity: 5.7
+    thermal_conductivity_W_mK: 1200.0
+    baseline_lifetime_s: 1.0e-7
+    radiation_damage_coeff_cm2: 3.5e-19
+    trap_capture_coeff_cm3_s: 1.0e-8
+    defect_sink_strength: 0.03
+    anneal_activation_eV: 1.7
+    electron_affinity_eV: 0.38
+  graphene:
+    sheet_resistance_ohm_sq: 500.0
+    work_function_eV: 4.55
+    mobility_cm2_Vs: 10000.0
+    thickness_nm: 0.34
+    thermal_conductivity_W_mK: 1500.0
+    optical_absorption_fraction: 0.023
+    interface_recombination_scale: 0.55
+  high_entropy_alloy:
+    label: "Idealized refractory high-entropy alloy"
+    work_function_eV: 4.8
+    resistivity_ohm_cm: 8.0e-5
+    mobility_cm2_Vs: 20.0
+    relative_permittivity: 20.0
+    thermal_conductivity_W_mK: 18.0
+    trap_density_cm3: 5.0e16
+    defect_sink_strength: 0.28
+    healing_rate_s: 4.0e-8
+    radiation_damage_coeff_cm2: 8.0e-20
+    interface_barrier_eV: 0.28
+    scattering_penalty: 0.05
+  ideal_defect_sink:
+    label: "Idealized self-healing defect sink"
+    work_function_eV: 4.4
+    resistivity_ohm_cm: 0.05
+    mobility_cm2_Vs: 50.0
+    relative_permittivity: 50.0
+    thermal_conductivity_W_mK: 80.0
+    trap_density_cm3: 1.0e15
+    defect_sink_strength: 0.85
+    healing_rate_s: 2.0e-6
+    radiation_damage_coeff_cm2: 2.0e-20
+    interface_barrier_eV: 0.10
+    scattering_penalty: 0.01
+  ferrites:
+    Fe3O4:
+      label: "Magnetite Fe3O4"
+      bandgap_eV: 0.12
+      resistivity_ohm_cm: 0.01
+      mobility_cm2_Vs: 0.8
+      relative_permittivity: 80.0
+      thermal_conductivity_W_mK: 5.0
+      trap_density_cm3: 8.0e17
+      defect_sink_strength: 0.42
+      healing_rate_s: 1.5e-7
+      radiation_damage_coeff_cm2: 1.8e-19
+      interface_barrier_eV: 0.35
+      spin_scattering_penalty: 0.07
+    NiFe2O4:
+      label: "Nickel Ferrite NiFe2O4"
+      bandgap_eV: 1.6
+      resistivity_ohm_cm: 1.0e5
+      mobility_cm2_Vs: 0.02
+      relative_permittivity: 35.0
+      thermal_conductivity_W_mK: 4.0
+      trap_density_cm3: 2.0e17
+      defect_sink_strength: 0.34
+      healing_rate_s: 1.0e-7
+      radiation_damage_coeff_cm2: 1.4e-19
+      interface_barrier_eV: 0.75
+      spin_scattering_penalty: 0.03
+    CoFe2O4:
+      label: "Cobalt Ferrite CoFe2O4"
+      bandgap_eV: 1.4
+      resistivity_ohm_cm: 1.0e7
+      mobility_cm2_Vs: 0.008
+      relative_permittivity: 30.0
+      thermal_conductivity_W_mK: 3.2
+      trap_density_cm3: 4.0e17
+      defect_sink_strength: 0.50
+      healing_rate_s: 1.2e-7
+      radiation_damage_coeff_cm2: 1.0e-19
+      interface_barrier_eV: 0.85
+      spin_scattering_penalty: 0.05

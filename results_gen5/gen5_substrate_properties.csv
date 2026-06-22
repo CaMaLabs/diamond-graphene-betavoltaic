@@ -1,0 +1,11 @@
+substrate,bandgap_eV,pair_creation_energy_eV,density_g_cm3,mobility_cm2_Vs,carrier_lifetime_s,thermal_conductivity_W_mK,radiation_tolerance,breakdown_field_MV_cm,dielectric_constant,defect_sensitivity,fabrication_maturity,cost_relative,graphene_compatibility,doping_difficulty,crystal_defect_risk,yield_base,laser_graphitic_feasible
+Diamond,5.47,13.0,3.51,1200.0,1e-07,1200.0,1.0,10.0,5.7,0.2,0.45,12.0,0.72,0.65,0.45,0.42,True
+4H-SiC,3.26,7.8,3.21,900.0,5e-08,370.0,0.78,3.0,9.7,0.35,0.82,2.5,0.68,0.45,0.25,0.72,False
+3C-SiC,2.36,7.0,3.21,700.0,4e-08,360.0,0.68,1.5,9.7,0.45,0.58,1.8,0.63,0.5,0.42,0.58,False
+GaN,3.4,8.9,6.15,1000.0,2e-08,230.0,0.62,3.3,9.0,0.55,0.78,3.0,0.55,0.42,0.38,0.64,False
+c-BN,6.4,14.0,3.48,800.0,8e-08,750.0,0.92,8.0,7.1,0.3,0.18,25.0,0.45,0.82,0.75,0.18,False
+AlN,6.2,13.0,3.26,300.0,2e-08,285.0,0.82,11.0,8.5,0.55,0.58,4.0,0.4,0.72,0.45,0.45,False
+beta-Ga2O3,4.8,10.0,5.88,150.0,1e-08,20.0,0.55,8.0,10.0,0.75,0.62,2.0,0.46,0.55,0.48,0.55,False
+Silicon,1.12,3.6,2.33,1400.0,1e-06,150.0,0.18,0.3,11.7,0.8,0.98,0.25,0.85,0.1,0.06,0.95,False
+B4C,2.1,7.0,2.52,10.0,1e-09,30.0,0.86,1.0,7.0,0.9,0.35,1.2,0.35,0.7,0.6,0.35,False
+GaAs,1.42,4.2,5.32,8500.0,2e-08,55.0,0.15,0.4,12.9,0.85,0.9,0.8,0.7,0.2,0.12,0.82,False
